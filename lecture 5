@@ -1,0 +1,13 @@
+######environment of higher-order functions######
+
+def apply_twice(f,x):
+  return f(f(x))
+
+def square(x)：
+  return x * x
+  
+result = apply_twice(square, 2)
+"""
+>>>result = apply_twice(square, 2)
+result = 16
+"""
