@@ -11,3 +11,25 @@ result = apply_twice(square, 2)
 >>>result = apply_twice(square, 2)
 result = 16
 """
+
+
+
+#########
+def repeat(f,x):
+  while f(x) != x;
+    x = f(x)
+  return x
+  
+def g(y):
+  return (y+5)//3
+
+result = repeat(g,5)
+>>> result = 2
+
+
+
+###########
+def make_adder(n):
+  def adder(k):
+    return k+n
+  return adder
