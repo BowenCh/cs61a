@@ -31,5 +31,28 @@ result = repeat(g,5)
 ###########
 def make_adder(n):
   def adder(k):
-    return k+n
+    return k + n
   return adder
+
+def square(x)
+  return x*x
+  
+def triple(x):
+  return x*3
+
+def compose1(f,g):
+  def h(x):
+    return f(g(x))
+  return h
+################
+
+def f(x,y):
+  return g(x)
+
+def g(a):
+  return a + y
+
+result = f(1,2)
+"""
+>>> error: y is not found in global environment
+"""
